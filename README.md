@@ -99,3 +99,25 @@ Para rodar esse projeto, siga os passos abaixo:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/usuario/locadora-de-veiculos.git
+2. Acesse o diretório do projeto:
+   cd locadora-de-veiculos
+3. Crie o banco de dados no MySQL:
+   CREATE DATABASE Locadora;
+   USE Locadora;
+4. Crie as tabelas com o script fornecido no repositório:
+   -- Execute os scripts de criação das tabelas aqui
+5. Insira os dados iniciais nas tabelas cliente, marca, carro e aluguel:
+   -- Execute os scripts de inserção de dados aqui
+6. Agora você pode rodar consultas SQL para interagir com os dados.
+
+## Contribuições
+
+Sinta-se à vontade para contribuir com este projeto. Para contribuir, siga estas etapas:
+
+1. Faça um fork do repositório.
+2. Crie uma nova branch (git checkout -b feature/novarecursos).
+3. Realize suas modificações.
+4. Comite as mudanças (git commit -am 'Adiciona nova funcionalidade').
+5. Faça o push para a branch (git push origin feature/novarecursos).
+6. Abra um Pull Request.
+
